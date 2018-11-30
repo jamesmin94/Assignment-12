@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Annual Violent Crimes in each county of Florida</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+    <link rel="stylesheet" href="styles/map.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Annual Violent Crimes in each county of Florida</h1>
+      <div id="map"></div>
+      <p>Junhee Min</p>
+      <p>The Markers on the map above shows Annual Violent Crimes (AVC) in each county of Florida.</p>
+      <p>source: <a href="http://www.countyhealthrankings.org/app/florida/2013/measure/factors/43/data"> http://www.countyhealthrankings.org/app/florida/2013/measure/factors/43/data </a></p>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+    <script src="scripts/places.json"></script>
+    <script src="scripts/map.js"></script>
+  </body>
+</html>
